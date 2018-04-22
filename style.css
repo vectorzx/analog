@@ -1,0 +1,36 @@
+body {
+	font-family: 'Courier New', serif;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+#box1 {
+	border: 5px black double;
+	padding: 50px 200px;
+	background-color: white;
+	width: 600px;
+	margin: 10px auto;
+}
+
+ul {
+	border-top: 3px black solid;
+	border-bottom: 2px black solid;
+	list-style-type: none;
+	padding: 20px;
+}
+
+li {
+	display: inline-block;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+a {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: grey;
+	color: white;
+}
